@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "../node"
+		},
+		{
+			"path": "../web development projects/web.html"
+		},
+		{
+			"path": "../c++/c++"
+		},
+		{
+			"path": "../web development projects"
+		},
+		{
+			"path": "../inventory management"
+		},
+		{
+			"path": "../portfolio"
+		},
+		{
+			"path": "../python"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../tic tac toe"
+		},
+		{
+			"path": "../ai chat bot"
+		},
+		{
+			"path": "../arrays"
+		},
+		{
+			"path": "../ML powered course reccomendation"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Build-a-Udemy-Course-Recommendation-System-Machine-Learning-AI-Project-main",
+		"liveServer.settings.port": 5501
+	}
+}
