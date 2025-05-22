@@ -11,7 +11,7 @@ const path = require('path');
 //taking another variable and giving the express methods to it
 const app=express()
 
-const PORT= 4000;
+const PORT= process.env.PORT || 4000;
 dotEnv.config();
 
 mongoose.connect(process.env.MONGO_URI)
@@ -29,6 +29,6 @@ app.listen(PORT, () => {
     console.log(`server started and running at ${PORT}`);
 });
 //now we are creating a router home and a call back function request,response
-app.use('/home',(req,res)=>{
+app.use('/',(req,res)=>{
     res.send("<h1>Welcome to shalom");
 })
